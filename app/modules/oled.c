@@ -245,7 +245,7 @@ const LUA_REG_TYPE oled_map[] =
   { LSTRKEY( "setup" ),  LFUNCVAL( oled_setup ) },
   { LSTRKEY( "clear" ),  LFUNCVAL( OLED_CLS ) },
  // { LSTRKEY( "on" ),  LFUNCVAL( OLED_ON ) },
- // { LSTRKEY( "off" ),  LFUNCVAL( OLED_OFF ) },
+ // { LSTRKEY( "off" ),  LFUNCVAL( OLED_OFF ) }, // Function seems to reset module - Need to investigate
   { LSTRKEY( "print" ),  LFUNCVAL( OLED_Print ) },
   { LSTRKEY( "line" ),  LFUNCVAL( OLED_Line ) },
   { LSTRKEY( "invert" ),  LFUNCVAL( OLED_Invert ) },
