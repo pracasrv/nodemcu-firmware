@@ -1,5 +1,5 @@
 // Module for interfacing with 0.96 OLED SCREEN with I2C interface
-/* Usage Notes
+/* Usage Notes - Hope its clear!
   Works only with i2c 0.96" OLED Displays with Device Address 0x3C - Hardcoded Device ID
   Does Default Setup Automatically
   oled.setup(sda,scl) => Sets up the Screen uses default 0x3C i2c device address for 0.96" Cheap OLED Modules
@@ -8,6 +8,7 @@
   oled.print(x,y, font size, "text to be printed" ) // Font Size can be 1 or 2
   oled.invert(val) // val can be 1 or 0
   git 
+  26-02-2015 - OLED Library for I2C 0.96" OLED Modules with Address 0x3C
 */
 //#include "lua.h"
 #include "lualib.h"
